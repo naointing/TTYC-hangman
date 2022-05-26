@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="icon" type="image/x-icon" href="icon.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>Hangman</title>
+  <style>
+    body {
+      background-image: url('bg.jpg');
+    }
+    </style>
+</head>
+<body>
+<div class="container">
+  <h1 class="text-center">Hangman (Programming  Edition)</h1>
+  <div class="float-right">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxTries'></span>
+  </div>
+  <div class="text-left">
+  <b>Instructions:</b><br>
+  The word is a type of programming language.<br>
+  Click on a letter to guess it. You have 6 lives.<br>
+  Click reset to reset your guesses to 0.
+  </div>
+  <div class="text-center">
+    <img id='hangmanPic' src="./images/0.jpg" alt="">
+    <h2>Guess the Word:</h2>
+    <p id="wordSpotlight">The word goes here</p>
+    <div id="keyboard"></div>
+    </br>
+    <button class="w3-button w3-red w3-round" onClick="reset()">Reset</button>
+  </div> 
+</div>
+
+<script src='./js/hangman.js'></script>
+</body>
+</html>
