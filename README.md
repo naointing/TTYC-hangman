@@ -4,4 +4,5 @@ Open the index HTML file in a browser.<br>
 Click a letter to guess it. The word will be a programming language.<br>
 You have 6 chances to guess the word.<br>
 Press the Reset button to reset wrong guesses to 0.<br>
-<b>Video demonstration: demo.wmv </b>
+<b>Video demonstration: demo.wmv </b> <br>
+<b>Project Report: TTYC Project Report.docx </b> <br>
